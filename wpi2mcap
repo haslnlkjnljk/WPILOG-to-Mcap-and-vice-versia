@@ -1,0 +1,8 @@
+#!/bin/sh
+# Runs wpiToMCAP.py inside this repo's virtual environment (create it with ./setup.sh).
+here="$(cd "$(dirname "$0")" && pwd)"
+if [ ! -x "$here/.venv/bin/python" ]; then
+    echo "No virtual environment yet; run $here/setup.sh first." >&2
+    exit 1
+fi
+exec "$here/.venv/bin/python" "$here/wpiToMCAP.py" "$@"

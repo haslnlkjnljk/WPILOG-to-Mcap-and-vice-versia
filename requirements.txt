@@ -1,0 +1,2 @@
+foxglove-sdk>=0.29
+pyntcore>=2026.2
