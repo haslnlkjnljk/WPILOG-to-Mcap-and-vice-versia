@@ -191,6 +191,8 @@ Everything is in [`wpiToMCAP.py`](wpiToMCAP.py):
   publishing the way AdvantageKit does.
 - `convert` on a hand-built `.wpilog` covering primitives, arrays, strings, nested structs and
   struct arrays.
+## Future 
+- Implment vision logging, foxglove has vision functionalities add themn. 
 
 Not yet tested: a physical robot, struct topics from real robot code, and `convert` on a
 `.wpilog` written by a real robot.
