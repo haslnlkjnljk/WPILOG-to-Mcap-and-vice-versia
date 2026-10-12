@@ -1,6 +1,6 @@
-# WPILOG to MCAP
+# WPILOG to MCAP 
 
-Gets FRC robot data into [Foxglove](https://foxglove.dev) / MCAP, two ways:
+Gets FRC robot data into [Foxglove](https://foxglove.dev) MCAP  Tisis  is just a fun little project and has no importance to the team yet, i just like foxglove graphs better.  it can convert to MCAP, two ways:
 
 - **`serve`**: subscribe to a robot's or simulator's NetworkTables and livestream everything on
   it over a Foxglove WebSocket server, optionally recording it to `.mcap` at the same time.
